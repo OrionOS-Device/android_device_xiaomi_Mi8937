@@ -15,6 +15,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Kernel
 TARGET_KERNEL_VERSION := 4.9
 
+# OrionOS Flags
+ORION_MAINTAINER := Rve
+ORION_MAINTAINER_LINK := https://t.me/rve270
+ORION_BUILD_TYPE := Official
+ORION_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_HAS_UDFPS := false
+
 # Inherit from Mi8937 device
 $(call inherit-product, device/xiaomi/Mi8937/device.mk)
 

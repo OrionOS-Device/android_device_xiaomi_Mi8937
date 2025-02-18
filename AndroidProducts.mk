@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Mi8937.mk \
-    $(LOCAL_DIR)/lineage_Mi8937_4_19.mk
+    $(LOCAL_DIR)/orion_Mi8937.mk \
+    $(LOCAL_DIR)/orion_Mi8937_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Mi8937-user \
-    lineage_Mi8937-userdebug \
-    lineage_Mi8937-eng \
-    lineage_Mi8937_4_19-user \
-    lineage_Mi8937_4_19-userdebug \
-    lineage_Mi8937_4_19-eng
+    orion_Mi8937-user \
+    orion_Mi8937-userdebug \
+    orion_Mi8937-eng \
+    orion_Mi8937_4_19-user \
+    orion_Mi8937_4_19-userdebug \
+    orion_Mi8937_4_19-eng
