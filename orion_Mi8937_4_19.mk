@@ -15,6 +15,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Kernel
 TARGET_KERNEL_VERSION := 4.19
 
+# OrionOS Flags
+ORION_MAINTAINER := Rve
+ORION_MAINTAINER_LINK := https://t.me/rve270
+ORION_BUILD_TYPE := Official
+ORION_GAPPS := false
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_HAS_UDFPS := false
+
 # Inherit from Mi8937 device
 $(call inherit-product, device/xiaomi/Mi8937/device.mk)
 
@@ -31,7 +39,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi8937_4_19
-PRODUCT_NAME := lineage_Mi8937_4_19
+PRODUCT_NAME := orion_Mi8937_4_19
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MSM8937
